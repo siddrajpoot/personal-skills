@@ -1,0 +1,7 @@
+interface:
+  display_name: "Review Copilot comments"
+  short_description: "Triage Copilot PR comments one at a time"
+  default_prompt: "Use $review-copilot-comments to triage Copilot review comments on this PR."
+
+policy:
+  allow_implicit_invocation: false
